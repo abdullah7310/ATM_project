@@ -11,7 +11,7 @@ if(username == "abdul"){
         console.log("Choose Option : \n1: Check Balance \n2: Withdraw Amount \n3: Deposit Amount \n4: Reset PIN");
         let user = prompt("Enter >> ")
         if(user == "1"){
-            console.log("Your Bank Available Balance is Rs. 40,000");
+            console.log("Your Bank Available Balance is Rs. 40,000")
         } else if(user == "2"){
             let amount = Number(prompt("Enter amount that you want to withdraw :> "))
             let enter_pin = Number(prompt("Enter your pin >> "))
